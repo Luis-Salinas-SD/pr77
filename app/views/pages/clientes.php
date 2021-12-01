@@ -96,6 +96,26 @@
                                     <a href="#" class="btn btn-danger" data-bs-toggle="tooltip" data-bs-placement="top" title="Inactivar al cliente">
                                         <i class="mdi mdi-lock-outline"></i>
                                     </a>
+                                    <a href="#" class="btn btn-success" data-bs-toggle="tooltip" data-bs-placement="top" title="Activar al cliente">
+                                        <i class="mdi mdi-check-circle-outline"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr class="text-center">
+                                <td>CLIENTE EMPRESA</td>
+                                <td>MODC920228MJ7 </td>
+                                <td> CONTACTO</td>
+                                <td>8865645759</td>
+                                <td>
+                                    <span class="badge bg-danger p-2">Inactivo</span>
+                                </td>
+                                <td>
+                                    <a href="#" class="btn btn-warning" data-bs-toggle="tooltip" data-bs-placement="top" title="Ver detalles">
+                                        <i class="mdi mdi-lead-pencil"></i>
+                                    </a>
+                                    <a href="#" class="btn btn-danger" data-bs-toggle="tooltip" data-bs-placement="top" title="Inactivar al cliente">
+                                        <i class="mdi mdi-lock-outline"></i>
+                                    </a>
                                 </td>
                             </tr>
                         </tbody>

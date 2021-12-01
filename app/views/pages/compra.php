@@ -32,7 +32,7 @@
             <div class="page-content">
                 <div class="row">
                     <!-- Subtitle -->
-                    <div class="d-flex justify-content-between">
+                    <div class="d-flex justify-content-between mb-3">
                         <h1 class="title">Compras</h1>
                         <a href="../pages/addCompra.php" class="btn btn-warning m-lg-3">
                             <i data-feather="plus">Nueva Compra</i>
