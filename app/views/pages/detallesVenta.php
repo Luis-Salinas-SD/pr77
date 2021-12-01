@@ -9,7 +9,7 @@
     <meta name="author" content="NobleUI">
     <meta name="keywords" content="nobleui, bootstrap, bootstrap 5, bootstrap5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
 
-    <title>Detalles de Compra | P.R 77</title>
+    <title>Compras | P.R 77</title>
 
     <?php include('../includes/header.php') ?>
 
@@ -33,7 +33,7 @@
                 <div class="row">
                     <!-- Subtitle -->
                     <div class="d-flex justify-content-between mb-2">
-                        <h1 class="title">Detalles de Compra</h1>
+                        <h1 class="title">Detalles de Venta</h1>
                     </div>
                     <!-- Card -->
                     <div class="card">
@@ -60,7 +60,7 @@
                                 <!-- Datos -->
                                 <div class="row mb-6">
                                     <div class="col-lg">
-                                        <div class="text-muted"><strong>Usuario Realizó</strong></div>
+                                        <div class="text-muted">Usuario Realizó</div>
                                         <p class="mb-4">
                                             <strong class="text-body">CRISTIAN MORENO DÍAZ</strong><br>
                                             <br>
@@ -71,7 +71,7 @@
                                         <p># 2</p>
                                     </div>
                                     <div class="col-lg text-end">
-                                        <div class="text-muted">Proveedor</div>
+                                        <div class="text-muted">Cliente</div>
                                         <p class="mb-6">
                                             <strong class="text-body">CRISTIAN COMPANYS</strong>
                                             <br>
@@ -99,45 +99,45 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>NUEVO PRODUCTO</td>
+                                                <td>PRODUCTO UNO</td>
                                                 <td>
-                                                    10.33
+                                                    4
                                                 </td>
                                                 <td>
-                                                    $1,234.00 </td>
-                                                <td class="text-right">$12,747.22</td>
+                                                    $150,000.00 </td>
+                                                <td class="text-right">$600,000.00</td>
                                             </tr>
                                             <tr>
                                                 <td>OTRO PRODUCTO</td>
                                                 <td>
-                                                    10
+                                                    14
                                                 </td>
                                                 <td>
                                                     $15.23 </td>
-                                                <td class="text-right">$152.30</td>
+                                                <td class="text-right">$213.22</td>
                                             </tr>
                                             <tr>
                                                 <td><strong>Subtotal</strong></td>
                                                 <td colspan="3" class="text-right">
-                                                    <strong>$12,899.52</strong>
+                                                    <strong>$600,213.22</strong>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td><strong>IVA</strong></td>
                                                 <td colspan="3" class="text-right">
-                                                    <strong>$2,063.92</strong>
+                                                    <strong>$0.00</strong>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td><strong>Total</strong></td>
                                                 <td colspan="3" class="text-right">
-                                                    <strong>$14,963.44</strong>
+                                                    <strong>$600,213.22</strong>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td colspan="4">
                                                     <strong>Notas</strong><br>
-
+                                                    Este es una venta sin IVA
                                                 </td>
                                             </tr>
                                         </tbody>
@@ -153,7 +153,7 @@
                                                 </th>
                                             </tr>
                                             <tr class="bg-light">
-                                                <th>Cuenta</th>
+                                                <th>Cuenta Contable</th>
                                                 <th>Forma de Pago</th>
                                                 <th>Pago</th>
                                                 <th>Fecha de Pago</th>
@@ -162,31 +162,43 @@
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            <tr>
-                                                <td>BANCO AZTECA</td>
-                                                <td>TRANSFERENCIA ELECTRÓNICA</td>
-                                                <td>$963.44</td>
-                                                <td>sábado, 04 de septiembre de 2021</td>
-                                                <td>
-                                                    <a target="_blank" href="#" class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Imprimir">
-                                                        <i class="mdi mdi-printer"></i></a>
-                                                </td>
-                                            </tr>
                                         </tbody>
-                                        <tbody>
+                                        <tfoot>
                                             <tr>
                                                 <td colspan="2"><strong>Total Pagado</strong></td>
-                                                <td class="text-right">
-                                                    <strong>$963.44</strong>
-                                                </td>
+                                                <td class="text-right"><strong>$100,213.22</strong></td>
                                                 <td colspan="2"></td>
                                             </tr>
                                             <tr class="text-danger">
                                                 <td colspan="2"><strong>Total Adeudo</strong></td>
-                                                <td class="text-right">
-                                                    <strong>$14,000.00</strong>
-                                                </td>
+                                                <td class="text-right"><strong>$400,000.00</strong></td>
                                                 <td colspan="2"></td>
+                                            </tr>
+                                        </tfoot>
+                                    </table>
+                                </div>
+                                <!-- Tabla 3 -->
+                                <div class="table-responsive">
+                                    <table class="table border-bottom mb-5">
+                                        <thead>
+                                            <tr>
+                                                <th colspan="5" class="text-center">
+                                                    Notas de Crédito
+                                                </th>
+                                            </tr>
+                                            <tr class="bg-light">
+                                                <th>Fecha</th>
+                                                <th>Importe</th>
+                                                <th>Notas</th>
+                                                <th>Registró</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>lunes, 12 de julio de 2021</td>
+                                                <td>$100,000.00</td>
+                                                <td>Algunas notas de la nota de credito</td>
+                                                <td>CRISTIAN MORENO DÍAZ</td>
                                             </tr>
                                         </tbody>
                                     </table>

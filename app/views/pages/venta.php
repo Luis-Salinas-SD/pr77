@@ -140,7 +140,7 @@
                                 <td>$206,850</td>
                                 <td>$206,850</td>
                                 <td>
-                                    <a href="#" class="btn btn-warning" data-bs-toggle="tooltip" data-bs-placement="top" title="Ver detalles">
+                                    <a href="../pages/detallesVenta.php" class="btn btn-warning" data-bs-toggle="tooltip" data-bs-placement="top" title="Ver detalles">
                                         <i class="mdi mdi-eye"></i>
                                     </a>
                                 </td>
