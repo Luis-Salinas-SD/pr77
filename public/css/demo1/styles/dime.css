@@ -56,4 +56,7 @@
 .icons-detalle i{
   font-size: 1rem;
 }
+.switch{
+  display: none;
+}
 

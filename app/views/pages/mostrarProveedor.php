@@ -7,8 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Responsive HTML Admin Dashboard Template based on Bootstrap 5">
     <meta name="author" content="NobleUI">
-    <meta name="keywords"
-        content="nobleui, bootstrap, bootstrap 5, bootstrap5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
+    <meta name="keywords" content="nobleui, bootstrap, bootstrap 5, bootstrap5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
 
     <title>Proveedores | P.R 77</title>
 
@@ -33,7 +32,7 @@
             <div class="page-content">
                 <div class="row">
                     <!-- Subtitle -->
-                    <div class="d-flex justify-content-between">
+                    <div class="d-flex justify-content-between mb-3">
                         <h1 class="title">Proveedor: Nombre del Proveedor</h1>
                         <a href="../pages/addProveedor.php" class="btn btn-warning m-lg-3">
                             <i data-feather="edit"></i>
@@ -73,7 +72,7 @@
                                             <th>Email</th>
                                             <th>Teléfonos</th>
                                             <th>
-                                                <a class="btn btn-primary"><i data-feather="plus"></i></a>
+                                                <a class="btn btn-primary mb-3" id="btnSwitch"><i data-feather="plus"></i></a>
                                             </th>
                                         </tr>
                                     </thead>
@@ -99,7 +98,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card mt-3">
+                    <div class="card mt-3 switch">
                         <div class="card-body">
                             <form action="" method="POST">
                                 <input type="hidden" name="">
@@ -110,21 +109,15 @@
                                                 <label for="contact" class="form-label">
                                                     Contacto
                                                     <strong class="text-danger">*</strong>
-                                                    <a href="#" class="text-black" data-bs-toggle="tooltip"
-                                                        data-bs-placement="top"
-                                                        data-bs-original-title="El campo debe tener al menos de 2 letras">
+                                                    <a href="#" class="text-black" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="El campo debe tener al menos de 2 letras">
                                                         <i class="mdi mdi-help-circle-outline"></i>
                                                     </a>
                                                 </label>
-                                                <input type="text" id="contact" name="contact" class="form-control"
-                                                    required placeholder="Nombre del contacto">
+                                                <input type="text" id="contact" name="contact" class="form-control" required placeholder="Nombre del contacto">
                                             </div>
                                             <div class="col-lg">
-                                                <label for="email" class="form-label">Correo electrónico <strong
-                                                        class="text-danger">*</strong></label>
-                                                <input type="email" id="email" required="" name="email"
-                                                    class="form-control" placeholder="Correo electrónico"
-                                                    autocomplete="off">
+                                                <label for="email" class="form-label">Correo electrónico <strong class="text-danger">*</strong></label>
+                                                <input type="email" id="email" required="" name="email" class="form-control" placeholder="Correo electrónico" autocomplete="off">
                                             </div>
                                         </div>
                                         <div class="row mt-3">
@@ -132,29 +125,21 @@
                                                 <label for="phone" class="form-label">
                                                     Teléfono primario
                                                     <strong class="text-danger">*</strong>
-                                                    <a href="#" class="text-black" data-bs-toggle="tooltip"
-                                                        data-bs-placement="top"
-                                                        data-bs-original-title="El campo debe tener al menos de 7 números">
+                                                    <a href="#" class="text-black" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="El campo debe tener al menos de 7 números">
                                                         <i class="mdi mdi-help-circle-outline"></i>
                                                     </a>
                                                 </label>
-                                                <input required pattern="[0-9].{6,}" type="text" name="phone" id="phone"
-                                                    class="form-control" placeholder="Teléfono primario">
+                                                <input required pattern="[0-9].{6,}" type="text" name="phone" id="phone" class="form-control" placeholder="Teléfono primario">
                                             </div>
                                             <div class="col-lg">
                                                 <label for="phone" class="form-label">
                                                     Teléfono secundario
                                                     <strong class="text-danger">*</strong>
-                                                    <a href="#" class="text-black" data-bs-toggle="tooltip"
-                                                        data-bs-placement="top"
-                                                        data-bs-original-title="El campo debe tener al menos de 7 números">
+                                                    <a href="#" class="text-black" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="El campo debe tener al menos de 7 números">
                                                         <i class="mdi mdi-help-circle-outline"></i>
                                                     </a>
                                                 </label>
-                                                <input pattern=".{7,}" title="El campo debe tener al menos 7 números"
-                                                    type="text" id="second_phone" name="phone_second"
-                                                    class="form-control" placeholder="Teléfono secundario"
-                                                    autocomplete="off">
+                                                <input pattern=".{7,}" title="El campo debe tener al menos 7 números" type="text" id="second_phone" name="phone_second" class="form-control" placeholder="Teléfono secundario" autocomplete="off">
                                             </div>
                                         </div>
                                     </div>

@@ -29,3 +29,7 @@
 <script src="../../../public/vendors/inputmask/jquery.inputmask.min.js"></script>
 <script src="../../../public/js/data-table.js"></script>
 <script src="../../../public/js/inputmask.js"></script>
+
+
+
+<script src="../../../public/js/src/dime.js"></script>
