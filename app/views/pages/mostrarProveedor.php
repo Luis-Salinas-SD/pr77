@@ -106,30 +106,30 @@
                                     <div class="form-group">
                                         <div class="row">
                                             <div class="col-lg">
-                                                <label for="contact">Contacto <strong class="text-danger">*</strong>
+                                                <label for="contact" class="form-label">Contacto <strong class="text-danger">*</strong>
                                                     <a href="#" data-toggle="tooltip" data-placement="top" class="text-dark-gray" data-title="El nombre del contacto debe tener al menos 2 letras" data-original-title="" title=""><i class="material-icons">help_outline</i></a>
                                                 </label>
-                                                <input pattern=".{2,}" title="El campo debe tener al menos 2 letras" onchange="javascript:helpers.cleanText(this);" type="text" id="contact" name="contact" class="form-control uppercaseInput" required="" placeholder="Nombre del contacto" autocomplete="off">
+                                                <input pattern=".{2,}" title="El campo debe tener al menos 2 letras" type="text" id="contact" name="contact" class="form-control uppercaseInput" required="" placeholder="Nombre del contacto" autocomplete="off">
                                             </div>
                                             <div class="col-lg">
-                                                <label for="email">Correo electrónico <strong class="text-danger">*</strong></label>
+                                                <label for="email" class="form-label">Correo electrónico <strong class="text-danger">*</strong></label>
                                                 <input type="email" id="email" required="" name="email" class="form-control" placeholder="Correo electrónico" autocomplete="off">
                                             </div>
                                         </div>
-                                        <div class="row">
+                                        <div class="row mt-3">
                                             <div class="col-lg">
-                                                <label for="phone">Teléfono primario <strong class="text-danger">*</strong>
-                                                    <a href="#" data-toggle="tooltip" data-placement="top" class="text-dark-gray" data-title="La teléfono debe tener al menos 7 números" data-original-title="" title=""><i class="material-icons">help_outline</i></a></label>
-                                                <input required="" pattern=".{7,}" title="El campo debe tener al menos 7 números" onchange="javascript:helpers.cleanText(this);" type="text" name="phone" id="phone" class="form-control" placeholder="Teléfono primario" autocomplete="off">
+                                                <label for="phone" class="form-label">Teléfono primario <strong class="text-danger">*</strong>
+                                                    <a href="#" data-toggle="tooltip" data-placement="top" class="text-dark-gray" data-title="La teléfono debe tener al menos 7 números" data-original-title="" title=""><i class="mdi mdi-comment-question-outline">help_outline</i></a></label>
+                                                <input required="" pattern=".{7,}" title="El campo debe tener al menos 7 números" type="text" name="phone" id="phone" class="form-control" placeholder="Teléfono primario" autocomplete="off">
                                             </div>
                                             <div class="col-lg">
-                                                <label for="phone_second">Teléfono secundario
+                                                <label for="phone_second" class="form-label">Teléfono secundario
                                                     <a href="#" data-toggle="tooltip" data-placement="top" class="text-dark-gray" data-title="La teléfono debe tener al menos 7 números" data-original-title="" title=""><i class="material-icons">help_outline</i></a></label>
-                                                <input pattern=".{7,}" title="El campo debe tener al menos 7 números" onchange="javascript:helpers.cleanText(this);" type="text" id="second_phone" name="phone_second" class="form-control" placeholder="Teléfono secundario" autocomplete="off">
+                                                <input pattern=".{7,}" title="El campo debe tener al menos 7 números" type="text" id="second_phone" name="phone_second" class="form-control" placeholder="Teléfono secundario" autocomplete="off">
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="form-group">
+                                    <div class="form-group mt-3">
                                         <div class="row">
                                             <div class="col-lg text-center">
                                                 <button class="btn btn-primary btn-send">Guardar</button>
