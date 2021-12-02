@@ -90,14 +90,17 @@
                                     <span class="badge bg-success p-2">Activo</span>
                                 </td>
                                 <td>
-                                    <a href="#" class="btn btn-info" data-bs-toggle="tooltip" data-bs-placement="top" title="Ver detalles">
+                                    <a href="../pages/mostrarProveedor.php" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Ver detalles">
                                         <i class="mdi mdi-eye"></i>
                                     </a>
-                                    <a href="#" class="btn btn-warning" data-bs-toggle="tooltip" data-bs-placement="top" title="Ver detalles">
+                                    <a href="#" class="btn btn-warning" data-bs-toggle="tooltip" data-bs-placement="top" title="Editar">
                                         <i class="mdi mdi-lead-pencil"></i>
                                     </a>
                                     <a href="#" class="btn btn-danger" data-bs-toggle="tooltip" data-bs-placement="top" title="Inactivar al cliente">
                                         <i class="mdi mdi-lock-outline"></i>
+                                    </a>
+                                    <a href="#" class="btn btn-success" data-bs-toggle="tooltip" data-bs-placement="top" title="Activar al cliente">
+                                        <i class="mdi mdi-check-circle-outline"></i>
                                     </a>
                                 </td>
                             </tr>

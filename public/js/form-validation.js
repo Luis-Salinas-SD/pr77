@@ -128,6 +128,67 @@ $(function () {
   });
 });
 
+/* +++++++++++++++++++++++++++++ Formulario Registro de presupuesto +++++++++++++++++++++++++++++ */
+$(function () {
+  'use strict';
+
+  $.validator.setDefaults({
+    submitHandler: function () {
+      alert("Registro éxito!");
+    }
+  });
+
+  $(function () {
+    // validate signup form on keyup and submit
+    $("#addClient").validate({
+      rules: {
+        razonSocial: {
+          required: true
+        },
+        rfc: {
+          required: true
+        },
+        contacto: {
+          required: true
+        },
+        email: {
+          required: true
+        },
+        tel: {
+          required: true
+        }
+      },
+      messages: {
+        razonSocial: {
+          required: "Campo obligatorio",
+        },
+        rfc: {
+          required: "Campo obligatorio",
+        },
+        contacto: {
+          required: "Campo obligatorio",
+        },
+        email: {
+          required: "Campo obligatorio",
+        },
+        tel: {
+          required: "Campo obligatorio",
+        }
+
+      },
+      errorPlacement: function (label, element) {
+        label.addClass('mt-1 tx-13 text-danger');
+        label.insertAfter(element);
+      },
+      highlight: function (element, errorClass) {
+        $(element).parent().addClass('validation-error')
+        $(element).addClass('border-danger')
+      }
+    });
+  });
+});
+
+
 /* +++++++++++++++++++++++++++++ Formulario Movimientos Bancarios +++++++++++++++++++++++++++++ */
 $(function () {
   'use strict';
