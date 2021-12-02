@@ -26614,9 +26614,9 @@ div.table-responsive
 .select2-container--default
   .select2-selection--multiple
   .select2-selection__choice {
-  background-color: #6571ff;
+  background-color: #ffc107;
   color: #fff;
-  border-color: #6571ff;
+  border-color: #ffc107;
   padding: 1px 8px;
   border-radius: 0.15rem;
   margin-top: 5px;
@@ -26626,6 +26626,7 @@ div.table-responsive
   .select2-selection__choice__remove {
   color: #fff;
   opacity: 0.5;
+  display: none;
 }
 
 .select2-container .select2-search--inline {

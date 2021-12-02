@@ -70,11 +70,11 @@
                                             </td>
                                             <td>
                                                 SUELDOS
-                                            </td>
+                                                f </td>
                                             <td>PAGO A PROVEEDORES</td>
                                             <td>$963.44</td>
                                             <td>
-                                                <button class="btn btn-success btn-sm btn-send" data-toggle="tooltip" data-placement="top" data-original-title="Acreditar">
+                                                <button class="btn btn-success btn-sm btn-send" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Acreditar Seleccionados">
                                                     <i class="mdi mdi-checkbox-marked-circle-outline"></i>
                                                 </button>
                                             </td>
@@ -95,7 +95,7 @@
                                             <td>
                                                 <form method="POST" onsubmit="javascript:$('.btn-send').hide();" action="http://pr77.pr77security.com/authorizationdgupdate/eyJpdiI6InI0NXE1UlREeGFuYWgrNnMxeHF2aGc9PSIsInZhbHVlIjoic0t0L3J2SkgzWllMTWZBcHNHckZMZz09IiwibWFjIjoiOTgxM2YwNjQyY2M1OGU2YjM2Yzk4MjI4MTYwMmNmNzAyYzdlMGVkMDczNzRhYjg2YTZiYTYwNTA4NzQ5ZDZlYiIsInRhZyI6IiJ9">
                                                     <input type="hidden" name="_token" value="YYX8P2RGKAxHo23gc742yr2oehgdyhuGh9tDVkNu"> <input type="hidden" name="_method" value="PUT">
-                                                    <button class="btn btn-success btn-sm btn-send" data-toggle="tooltip" data-placement="top" data-original-title="Acreditar">
+                                                    <button class="btn btn-success btn-sm btn-send" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Acreditar Seleccionados">
                                                         <i class="mdi mdi-checkbox-marked-circle-outline"></i>
                                                     </button>
                                                 </form>
@@ -103,7 +103,8 @@
                                         </tr>
                                         <tr>
                                             <td>
-                                                <a data-toggle="tooltip" data-title="Acreditar Seleccionados" onclick="javascript:validarmultiple(this);return false" href="http://pr77.pr77security.com/authorizationdgupdatemultiple" class="btn btn-primary btn-sm" data-original-title="" title=""><span class="mdi mdi-checkbox-marked-circle-outline"></span></a>
+                                                <a data-bs-toggle="tooltip" data-bs-placement="bottom" title="Acreditar Seleccionados" href="#" class="btn btn-primary btn-sm">
+                                                    <span class="mdi mdi-checkbox-marked-circle-outline"></span></a>
                                             </td>
                                             <td colspan="6"></td>
                                         </tr>
@@ -119,6 +120,7 @@
 
     </div>
     </div>
+
 
     <!-- End custom js for this page -->
     <?php include('../includes/scripts.php') ?>

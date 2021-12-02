@@ -80,7 +80,7 @@
                             <tr class="text-center">
                                 <td>Metaverso</td>
                                 <td>
-                                    <a href="#" class="btn btn-warning" data-bs-toggle="tooltip" data-bs-placement="top" title="Ver detalles">
+                                    <a href="../pages/addProyecto.php" class="btn btn-warning" data-bs-toggle="tooltip" data-bs-placement="top" title="Ver detalles">
                                         <i class="mdi mdi-lead-pencil"></i>
                                     </a>
                                     <a href="#" class="btn btn-danger" data-bs-toggle="tooltip" data-bs-placement="top" title="Inactivar proyecto">

@@ -79,7 +79,7 @@
                                 <td>Luis</td>
                                 <td><span class="badge bg-success p-2">Activo</span></td>
                                 <td>
-                                    <a href="#" class="btn btn-warning" data-bs-toggle="tooltip" data-bs-placement="top" title="Editar Banco">
+                                    <a href="../pages/addContable.php" class="btn btn-warning" data-bs-toggle="tooltip" data-bs-placement="top" title="Editar Banco">
                                         <i class="mdi mdi-lead-pencil"></i>
                                     </a>
                                     <a href="#" class="btn btn-dark" data-bs-toggle="tooltip" data-bs-placement="top" title="Ver Movimientos">
