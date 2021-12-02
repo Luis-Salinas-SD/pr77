@@ -7,7 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Responsive HTML Admin Dashboard Template based on Bootstrap 5">
     <meta name="author" content="NobleUI">
-    <meta name="keywords" content="nobleui, bootstrap, bootstrap 5, bootstrap5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
+    <meta name="keywords"
+        content="nobleui, bootstrap, bootstrap 5, bootstrap5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
 
     <title>Proveedores | P.R 77</title>
 
@@ -38,7 +39,7 @@
                             <i data-feather="edit"></i>
                         </a>
                     </div>
-                    <!-- Card -->
+                    <!--! Card -->
                     <div class="card">
                         <div class="card-body">
                             <div class="table-responsive">
@@ -101,31 +102,59 @@
                     <div class="card mt-3">
                         <div class="card-body">
                             <form action="" method="POST">
-                                <input type="hidden" name="_token" value="b2c1zkk5949q9kGS1bMVv18sbw735cj9JUQdBTAk">
+                                <input type="hidden" name="">
                                 <div class="was-validated">
                                     <div class="form-group">
                                         <div class="row">
                                             <div class="col-lg">
-                                                <label for="contact" class="form-label">Contacto <strong class="text-danger">*</strong>
-                                                    <a href="#" data-toggle="tooltip" data-placement="top" class="text-dark-gray" data-title="El nombre del contacto debe tener al menos 2 letras" data-original-title="" title=""><i class="material-icons">help_outline</i></a>
+                                                <label for="contact" class="form-label">
+                                                    Contacto
+                                                    <strong class="text-danger">*</strong>
+                                                    <a href="#" class="text-black" data-bs-toggle="tooltip"
+                                                        data-bs-placement="top"
+                                                        data-bs-original-title="El campo debe tener al menos de 2 letras">
+                                                        <i class="mdi mdi-help-circle-outline"></i>
+                                                    </a>
                                                 </label>
-                                                <input pattern=".{2,}" title="El campo debe tener al menos 2 letras" type="text" id="contact" name="contact" class="form-control uppercaseInput" required="" placeholder="Nombre del contacto" autocomplete="off">
+                                                <input type="text" id="contact" name="contact" class="form-control"
+                                                    required placeholder="Nombre del contacto">
                                             </div>
                                             <div class="col-lg">
-                                                <label for="email" class="form-label">Correo electrónico <strong class="text-danger">*</strong></label>
-                                                <input type="email" id="email" required="" name="email" class="form-control" placeholder="Correo electrónico" autocomplete="off">
+                                                <label for="email" class="form-label">Correo electrónico <strong
+                                                        class="text-danger">*</strong></label>
+                                                <input type="email" id="email" required="" name="email"
+                                                    class="form-control" placeholder="Correo electrónico"
+                                                    autocomplete="off">
                                             </div>
                                         </div>
                                         <div class="row mt-3">
                                             <div class="col-lg">
-                                                <label for="phone" class="form-label">Teléfono primario <strong class="text-danger">*</strong>
-                                                    <a href="#" data-toggle="tooltip" data-placement="top" class="text-dark-gray" data-title="La teléfono debe tener al menos 7 números" data-original-title="" title=""><i class="mdi mdi-comment-question-outline">help_outline</i></a></label>
-                                                <input required="" pattern=".{7,}" title="El campo debe tener al menos 7 números" type="text" name="phone" id="phone" class="form-control" placeholder="Teléfono primario" autocomplete="off">
+                                                <label for="phone" class="form-label">
+                                                    Teléfono primario
+                                                    <strong class="text-danger">*</strong>
+                                                    <a href="#" class="text-black" data-bs-toggle="tooltip"
+                                                        data-bs-placement="top"
+                                                        data-bs-original-title="El campo debe tener al menos de 7 números">
+                                                        <i class="mdi mdi-help-circle-outline"></i>
+                                                    </a>
+                                                </label>
+                                                <input required pattern="[0-9].{6,}" type="text" name="phone" id="phone"
+                                                    class="form-control" placeholder="Teléfono primario">
                                             </div>
                                             <div class="col-lg">
-                                                <label for="phone_second" class="form-label">Teléfono secundario
-                                                    <a href="#" data-toggle="tooltip" data-placement="top" class="text-dark-gray" data-title="La teléfono debe tener al menos 7 números" data-original-title="" title=""><i class="material-icons">help_outline</i></a></label>
-                                                <input pattern=".{7,}" title="El campo debe tener al menos 7 números" type="text" id="second_phone" name="phone_second" class="form-control" placeholder="Teléfono secundario" autocomplete="off">
+                                                <label for="phone" class="form-label">
+                                                    Teléfono secundario
+                                                    <strong class="text-danger">*</strong>
+                                                    <a href="#" class="text-black" data-bs-toggle="tooltip"
+                                                        data-bs-placement="top"
+                                                        data-bs-original-title="El campo debe tener al menos de 7 números">
+                                                        <i class="mdi mdi-help-circle-outline"></i>
+                                                    </a>
+                                                </label>
+                                                <input pattern=".{7,}" title="El campo debe tener al menos 7 números"
+                                                    type="text" id="second_phone" name="phone_second"
+                                                    class="form-control" placeholder="Teléfono secundario"
+                                                    autocomplete="off">
                                             </div>
                                         </div>
                                     </div>
@@ -133,7 +162,7 @@
                                         <div class="row">
                                             <div class="col-lg text-center">
                                                 <button class="btn btn-primary btn-send">Guardar</button>
-                                                <a onclick="javascript:helpers.showDiv('.form-contacts', 1); return false;" href="#" class="btn btn-outline-danger">Cancelar</a>
+                                                <a href="#" class="btn btn-outline-danger">Cancelar</a>
                                             </div>
                                         </div>
                                     </div>
