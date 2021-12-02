@@ -96,7 +96,7 @@
                                 <td>Pendiente de Validación
                                 </td>
                                 <td>
-                                    <a href="#" class="btn btn-sm btn-primary">
+                                    <a href="../pages/ticketSalida.php" class="btn btn-sm btn-primary">
                                         <i class="mdi mdi-eye"></i></a>
                                 </td>
                             </tr>
