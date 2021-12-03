@@ -34,12 +34,12 @@
                     <!-- Subtitle -->
                     <div class="d-flex justify-content-between">
                         <h1 class="title">MATERIALES</h1>
-                        <a href="../pages/addPresupuestos.php" class="btn btn-warning m-lg-3">
+                        <a href="../pages/addMateriales.php" class="btn btn-warning m-lg-3">
                             <i data-feather="plus"></i>
                             <span>Agregar</span>
                         </a>
                     </div>
-                    <!-- Card -->
+                    <!-- Main Card-->
                     <div class="card">
                         <div class="card-body">
                             <form action="">
@@ -54,14 +54,15 @@
                                                     <option value="1">CLIENTE 2</option>
                                                 </select>
                                             </div>
-                                            <div class="mb-3">
-                                                <button type="button" class="btn btn-outline-warning mt-4">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search me-2">
-                                                        <circle cx="11" cy="11" r="8"></circle>
-                                                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                                                    </svg>
-                                                    Buscar
-                                                </button>
+                                            <div class="col-sm-auto">
+                                                <div class="form-group">
+                                                    <div class="mb-3">
+                                                        <button type="button" class="btn btn-outline-warning mt-4 p-1">
+                                                            <i data-feather="search" class="me-2"></i>
+                                                            Buscar
+                                                        </button>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -91,10 +92,12 @@
                                     <span class="badge bg-success p-2">Activo</span>
                                 </td>
                                 <td>
-                                    <a href="#" class="btn btn-sm btn-primary">
-                                        <i class="mdi mdi-lead-pencil"></i></a>
-                                    <a href="#" class="btn btn-sm btn-danger">
-                                        <i class="mdi mdi-lead-pencil"></i></a>
+                                    <a href="../pages/editMateriales.php" class="btn btn-sm btn-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Editar Material">
+                                        <i class="mdi mdi-lead-pencil"></i>
+                                    </a>
+                                    <a href="#" class="btn btn-sm btn-danger" data-bs-toggle="tooltip" data-bs-placement="top" title="Inactivar Material">
+                                        <i class="mdi mdi-block-helper"></i>
+                                    </a>
                                 </td>
                             </tr>
                         </tbody>

@@ -7,8 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Responsive HTML Admin Dashboard Template based on Bootstrap 5">
     <meta name="author" content="NobleUI">
-    <meta name="keywords"
-        content="nobleui, bootstrap, bootstrap 5, bootstrap5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
+    <meta name="keywords" content="nobleui, bootstrap, bootstrap 5, bootstrap5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
 
     <title>Nueva Venta | P.R 77</title>
 
@@ -49,8 +48,7 @@
                                                     <label for="cuenta" class="form-label">
                                                         NÚMERO DE PEDIDO
                                                     </label>
-                                                    <input type="text" class="form-control" id="" name="cuenta"
-                                                        placeholder="Escribe el No. de orden de producción">
+                                                    <input type="text" class="form-control" id="" name="cuenta" placeholder="Escribe el No. de orden de producción">
                                                 </div>
                                             </div>
                                         </div>
@@ -61,8 +59,7 @@
                                                     <label for="Select1" class="form-label">
                                                         SELECCIONA EL CLIENTE
                                                     </label>
-                                                    <select class="js-example-basic-single form-select"
-                                                        data-width="100%" name="tipo">
+                                                    <select class="js-example-basic-single form-select" data-width="100%" name="tipo">
                                                         <option selected disabled>Elige una opción</option>
                                                         <option value="1" data-select2-id="32">cliente 1</option>
                                                         <option value="2" data-select2-id="33">cliente 2</option>
@@ -93,9 +90,7 @@
                                                     <label for="Select1" class="form-label">
                                                         NOTAS
                                                     </label>
-                                                    <textarea id="maxlength-textarea" class="form-control"
-                                                        id="defaultconfig-4" maxlength="100" rows="2"
-                                                        placeholder="Notas."></textarea>
+                                                    <textarea id="maxlength-textarea" class="form-control" id="defaultconfig-4" maxlength="100" rows="2" placeholder="Notas."></textarea>
                                                 </div>
                                             </div>
                                         </div>
@@ -117,8 +112,7 @@
                                         </div>
                                     </div>
                                     <div class="form-group text-center">
-                                        <button class="btn btn-warning btn-send mx-2" type="submit"
-                                            value="Submit">REGISTRAR</button>
+                                        <button class="btn btn-warning btn-send mx-2" type="submit" value="Submit">REGISTRAR</button>
                                         <a href="#" class="btn btn-outline-danger">CANCELAR</a>
                                     </div>
                                 </div>

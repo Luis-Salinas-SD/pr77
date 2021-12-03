@@ -86,10 +86,12 @@
                                     <span class="badge bg-success p-2">Activo</span>
                                 </td>
                                 <td>
-                                    <a href="#" class="btn btn-sm btn-primary">
-                                        <i class="mdi mdi-lead-pencil"></i></a>
-                                    <a href="#" class="btn btn-sm btn-danger">
-                                        <i class="mdi mdi-close-circle-outline"></i></a>
+                                    <a href="../pages/addMedidas.php" class="btn btn-sm btn-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Editar Unidad de Medida">
+                                        <i class="mdi mdi-lead-pencil"></i>
+                                    </a>
+                                    <a href="#" class="btn btn-sm btn-danger" data-bs-toggle="tooltip" data-bs-placement="top" title="Inactivar Unidad de Medida">
+                                        <i class="mdi mdi-close-circle-outline"></i>
+                                    </a>
                                 </td>
                             </tr>
                         </tbody>

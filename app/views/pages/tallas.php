@@ -86,12 +86,15 @@
                                     <span class="badge bg-success p-2">Activo</span>
                                 </td>
                                 <td>
-                                    <a href="#" class="btn btn-sm btn-primary">
-                                        <i class="mdi mdi-lead-pencil"></i></a>
-                                    <a href="#" class="btn btn-sm btn-success">
-                                        <i class="mdi mdi-check-circle-outline"></i></a>
-                                    <a href="#" class="btn btn-sm btn-danger">
-                                        <i class="mdi mdi-close-circle-outline"></i></a>
+                                    <a href="../pages/addTalla.php" class="btn btn-sm btn-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Editar Talla">
+                                        <i class="mdi mdi-lead-pencil"></i>
+                                    </a>
+                                    <a href="#" class="btn btn-sm btn-success" data-bs-toggle="tooltip" data-bs-placement="top" title="Activar Talla">
+                                        <i class="mdi mdi-check-circle-outline"></i>
+                                    </a>
+                                    <a href="#" class="btn btn-sm btn-danger" data-bs-toggle="tooltip" data-bs-placement="top" title="Inactivar Talla">
+                                        <i class="mdi mdi-close-circle-outline"></i>
+                                    </a>
                                 </td>
                             </tr>
                             <tr class="text-center">
@@ -105,12 +108,15 @@
                                     <span class="badge bg-danger p-2">Inactivo</span>
                                 </td>
                                 <td>
-                                    <a href="#" class="btn btn-sm btn-primary">
-                                        <i class="mdi mdi-lead-pencil"></i></a>
-                                    <a href="#" class="btn btn-sm btn-success">
-                                        <i class="mdi mdi-check-circle-outline"></i></a>
-                                    <a href="#" class="btn btn-sm btn-danger">
-                                        <i class="mdi mdi-close-circle-outline"></i></a>
+                                    <a href="../pages/addTalla.php" class="btn btn-sm btn-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Editar Talla">
+                                        <i class="mdi mdi-lead-pencil"></i>
+                                    </a>
+                                    <a href="#" class="btn btn-sm btn-success" data-bs-toggle="tooltip" data-bs-placement="top" title="Activar Talla">
+                                        <i class="mdi mdi-check-circle-outline"></i>
+                                    </a>
+                                    <a href="#" class="btn btn-sm btn-danger" data-bs-toggle="tooltip" data-bs-placement="top" title="Inactivar Talla">
+                                        <i class="mdi mdi-close-circle-outline"></i>
+                                    </a>
                                 </td>
                             </tr>
                         </tbody>

@@ -7,8 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Responsive HTML Admin Dashboard Template based on Bootstrap 5">
     <meta name="author" content="NobleUI">
-    <meta name="keywords"
-        content="nobleui, bootstrap, bootstrap 5, bootstrap5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
+    <meta name="keywords" content="nobleui, bootstrap, bootstrap 5, bootstrap5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
 
     <title>Etapas de Producción | H&A</title>
 
@@ -83,10 +82,12 @@
                                     <span class="badge bg-success p-2">Activo</span>
                                 </td>
                                 <td>
-                                    <a href="#" class="btn btn-sm btn-primary">
-                                        <i class="mdi mdi-lead-pencil"></i></a>
-                                    <a href="#" class="btn btn-sm btn-danger">
-                                        <i class="mdi mdi-close-circle-outline"></i></a>
+                                    <a href="../pages/addEtapaProduccion.php" class="btn btn-sm btn-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Editar Etapa de Producción">
+                                        <i class="mdi mdi-lead-pencil"></i>
+                                    </a>
+                                    <a href="#" class="btn btn-sm btn-danger" data-bs-toggle="tooltip" data-bs-placement="top" title="Inactivar Etapa de Producción">
+                                        <i class="mdi mdi-close-circle-outline"></i>
+                                    </a>
                                 </td>
                             </tr>
                         </tbody>

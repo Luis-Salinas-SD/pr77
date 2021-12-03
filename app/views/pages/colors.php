@@ -32,8 +32,8 @@
             <div class="page-content">
                 <div class="row">
                     <!-- Subtitle -->
-                    <div class="d-flex justify-content-between">
-                        <h1 class="title">colores</h1>
+                    <div class="d-flex justify-content-between mb-3">
+                        <h1 class="title">Colors</h1>
                         <a href="../pages/addColors.php" class="btn btn-warning m-lg-3">
                             <i data-feather="plus"></i>
                             <span>Agregar</span>
@@ -82,10 +82,13 @@
                                     <span class="badge bg-success p-2">Activo</span>
                                 </td>
                                 <td>
-                                    <a href="#" class="btn btn-sm btn-primary">
-                                        <i class="mdi mdi-lead-pencil"></i></a>
-                                    <a href="#" class="btn btn-sm btn-danger">
-                                        <i class="mdi mdi-close-circle-outline"></i></a>
+                                    <a href="../pages/addColors.php" class="btn btn-sm btn-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Editar Color">
+                                        <i class="mdi mdi-lead-pencil"></i>
+                                    </a>
+                                    <a href="#" class="btn btn-sm btn-danger" data-bs-toggle="tooltip" data-bs-placement="top" title="Inactivar Color">
+                                        <i class=" mdi mdi-close-circle-outline">
+                                        </i>
+                                    </a>
                                 </td>
                             </tr>
                         </tbody>

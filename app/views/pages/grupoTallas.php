@@ -85,11 +85,11 @@
                                     <span class="badge bg-success p-2">Activo</span>
                                 </td>
                                 <td>
-                                    <a href="#" class="btn btn-sm btn-info">
+                                    <a href="../pages/addTalla.php" class="btn btn-sm btn-info" data-bs-toggle="tooltip" data-bs-placement="top" title="Agregar Talla">
                                         <i class="mdi mdi-plus"></i></a>
-                                    <a href="#" class="btn btn-sm btn-primary">
+                                    <a href="../pages/addTallaGrupo.php" class="btn btn-sm btn-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Editar Grupo de Tallas">
                                         <i class="mdi mdi-lead-pencil"></i></a>
-                                    <a href="#" class="btn btn-sm btn-danger">
+                                    <a href="#" class="btn btn-sm btn-danger" data-bs-toggle="tooltip" data-bs-placement="top" title="Inactivar Grupo de Tallas">
                                         <i class="mdi mdi-close-circle-outline"></i></a>
                                 </td>
                             </tr>
