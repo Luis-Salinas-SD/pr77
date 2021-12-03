@@ -102,9 +102,9 @@
                                     <span class="badge bg-success p-2">Activo</span>
                                 </td>
                                 <td>
-                                    <a href="#" class="btn btn-sm btn-info">
+                                    <a href="../pages/showAlmacenes.php" class="btn btn-sm btn-info">
                                         <i class="mdi mdi-eye"></i></a>
-                                    <a href="#" class="btn btn-sm btn-primary">
+                                    <a href="../pages/addAlmacen.php" class="btn btn-sm btn-primary">
                                         <i class="mdi mdi-lead-pencil"></i></a>
                                     <a href="#" class="btn btn-sm btn-danger">
                                         <i class="mdi mdi-close-circle-outline"></i></a>
@@ -121,7 +121,7 @@
                                     <span class="badge bg-danger p-2">Inactivo</span>
                                 </td>
                                 <td>
-                                    <a href="#" class="btn btn-sm btn-info">
+                                    <a href="#" class="btn btn-sm btn-info" data-bs-toggle="tooltip" data-bs-placement="top" title="Ver Productos">
                                         <i class="mdi mdi-eye"></i></a>
                                     <a href="../pages/addAlmacen.php" class="btn btn-sm btn-primary">
                                         <i class="mdi mdi-lead-pencil"></i></a>

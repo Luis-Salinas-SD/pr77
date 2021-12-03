@@ -33,7 +33,7 @@
                 <div class="row">
                     <!-- Subtitle -->
                     <div class="d-flex justify-content-between">
-                        <h1 class="title">ORDENE DE PRODUCCIÓN #1</h1>
+                        <h1 class="title">ORDEN DE PRODUCCIÓN #1</h1>
                         <a href="../pages/addOrden.php" class="btn btn-warning m-lg-3">
                             <i data-feather="plus"></i>
                             <span>Agregar</span>
