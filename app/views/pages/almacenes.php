@@ -123,7 +123,7 @@
                                 <td>
                                     <a href="#" class="btn btn-sm btn-info">
                                         <i class="mdi mdi-eye"></i></a>
-                                    <a href="#" class="btn btn-sm btn-primary">
+                                    <a href="../pages/addAlmacen.php" class="btn btn-sm btn-primary">
                                         <i class="mdi mdi-lead-pencil"></i></a>
                                     <a href="#" class="btn btn-sm btn-danger">
                                         <i class="mdi mdi-close-circle-outline"></i></a>

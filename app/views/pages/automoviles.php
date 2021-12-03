@@ -96,13 +96,11 @@
                                                     <span class="badge bg-success p-2">Activo</span>
                                                 </td>
                                                 <td>
-                                                    <a href="#" class="btn btn-sm btn-info">
-                                                        <i class="mdi mdi-eye"></i></a>
-                                                    <a href="#" class="btn btn-sm btn-primary">
+                                                    <a href="../pages/addAuto.php" class="btn btn-sm btn-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Editar Automóvil">
                                                         <i class="mdi mdi-lead-pencil"></i></a>
-                                                    <a href="#" class="btn btn-sm btn-danger">
+                                                    <a href="#" class="btn btn-sm btn-danger" data-bs-toggle="tooltip" data-bs-placement="top" title="Inactivar Automóvil">
                                                         <i class="mdi mdi-close-circle-outline"></i></a>
-                                                    <a href="#" class="btn btn-sm btn-success">
+                                                    <a href="#" class="btn btn-sm btn-success" data-bs-toggle="tooltip" data-bs-placement="top" title="Activar Automóvil">
                                                         <i class="mdi mdi-check-circle-outline"></i></a>
                                                 </td>
                                             </tr>
@@ -115,13 +113,11 @@
                                                     <span class="badge bg-danger p-2">Inactivo</span>
                                                 </td>
                                                 <td>
-                                                    <a href="#" class="btn btn-sm btn-info">
-                                                        <i class="mdi mdi-eye"></i></a>
-                                                    <a href="#" class="btn btn-sm btn-primary">
+                                                    <a href="../pages/addAuto.php" class="btn btn-sm btn-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Editar Automóvil">
                                                         <i class="mdi mdi-lead-pencil"></i></a>
-                                                    <a href="#" class="btn btn-sm btn-danger">
+                                                    <a href="#" class="btn btn-sm btn-danger" data-bs-toggle="tooltip" data-bs-placement="top" title="Inactivar Automóvil">
                                                         <i class="mdi mdi-close-circle-outline"></i></a>
-                                                    <a href="#" class="btn btn-sm btn-success">
+                                                    <a href="#" class="btn btn-sm btn-success" data-bs-toggle="tooltip" data-bs-placement="top" title="Activar Automóvil">
                                                         <i class="mdi mdi-check-circle-outline"></i></a>
                                                 </td>
                                             </tr>

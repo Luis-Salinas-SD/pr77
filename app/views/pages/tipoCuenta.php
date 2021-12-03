@@ -84,10 +84,12 @@
                                     <span class="badge bg-success p-2">Activo</span>
                                 </td>
                                 <td>
-                                    <a href="#" class="btn btn-sm btn-primary">
+                                    <a href="../pages/addTipoCuenta.php" class="btn btn-sm btn-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Editar Tipo de Cuenta">
                                         <i class="mdi mdi-lead-pencil"></i></a>
-                                    <a href="#" class="btn btn-sm btn-danger">
+                                    <a href="#" class="btn btn-sm btn-danger" data-bs-toggle="tooltip" data-bs-placement="top" title="Inactivar Tipo de Cuenta">
                                         <i class="mdi mdi-close-circle-outline"></i></a>
+                                    <a href="#" class="btn btn-sm btn-success" data-bs-toggle="tooltip" data-bs-placement="top" title="Activar Tipo de Cuenta">
+                                        <i class="mdi mdi-check-circle-outline"></i></a>
                                 </td>
                             </tr>
                         </tbody>
