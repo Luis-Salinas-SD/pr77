@@ -35,7 +35,7 @@
                     <!-- Subtitle -->
                     <div class="d-flex justify-content-between mb-3">
                         <h1 class="title">ORDEN DE PRODUCCIÓN #1</h1>
-                        <a href="../pages/addOrden.php" class="btn btn-warning m-auto">
+                        <a href="../pages/addOrden.php" class="btn btn-warning my-auto">
                             <i data-feather="plus"></i>
                             <span>Agregar</span>
                         </a>
@@ -63,7 +63,7 @@
                                     </tbody>
                                 </table>
                             </div>
-                            <div class=" text-center">
+                            <div class=" text-center mt-3">
                                 <a href="#" class="btn btn-outline-success m-2">
                                     <i data-feather="plus-circle"></i>
                                     Añadir producto</a>
@@ -342,7 +342,7 @@
                                                 </button>
                                             </div>
                                             <div
-                                                class=" mt-2 border-top border-secondary bg-table d-flex justify-content-around py-3">
+                                                class=" mt-2 border-top border-secondary bg-table d-flex justify-content-around  flex-wrap px-2 py-2">
                                                 <p class="my-auto">
                                                     Dime Estudio de diseño
                                                     <br>
