@@ -32,7 +32,7 @@
             <div class="page-content">
                 <div class="row">
                     <!-- Subtitle -->
-                    <div class="d-flex justify-content-between">
+                    <div class="d-flex justify-content-between mb-3">
                         <h1 class="title">GRUPOS DE TALLAS
                         </h1>
                         <a href="../pages/addTallaGrupo.php" class="btn btn-warning m-lg-3">

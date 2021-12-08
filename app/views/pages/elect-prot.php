@@ -90,31 +90,31 @@
                 <div class="container row mt-7 py-2 mx-1 border-main">
                     <img src="../../../public/img/main-logo.png" class="main-logo mx-auto">
                 </div>
-                <div class="d-flex flex-wrap justify-content-center">
+                <div class="d-flex flex-wrap justify-content-center mt-1">
                     <!--# Sub Empresas  -->
-                    <div>
+                    <div class="logo-subempresa m-1">
                         <a href="../pages/dashboard.php">
-                            <img src="../../../public/img/logoPR.svg" alt="" srcset="" width="150">
+                            <img src="../../../public/img/logoPR.svg" alt="" srcset="">
                         </a>
                     </div>
-                    <div>
+                    <div class="logo-subempresa m-1">
                         <a href="../pages/dashboard.php">
-                            <img src="../../../public/img/logoPR.svg" alt="" srcset="" width="150">
+                            <img src="../../../public/img/lol1.jpg" alt="" srcset="">
                         </a>
                     </div>
-                    <div>
+                    <div class="logo-subempresa m-1">
                         <a href="../pages/dashboard.php">
-                            <img src="../../../public/img/logoPR.svg" alt="" srcset="" width="150">
+                            <img src="../../../public/img/lol2.jpg" alt="" srcset="">
                         </a>
                     </div>
-                    <div>
+                    <div class="logo-subempresa m-1">
                         <a href="../pages/dashboard.php">
-                            <img src="../../../public/img/logoPR.svg" alt="" srcset="" width="150">
+                            <img src="../../../public/img/lol3.jpg" alt="" srcset="">
                         </a>
                     </div>
-                    <div>
+                    <div class="logo-subempresa m-1">
                         <a href="../pages/dashboard.php">
-                            <img src="../../../public/img/logoPR.svg" alt="" srcset="" width="150">
+                            <img src="../../../public/img/logoH&A.jpg" alt="" srcset="">
                         </a>
                     </div>
                 </div>

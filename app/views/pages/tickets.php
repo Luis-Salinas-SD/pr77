@@ -32,7 +32,7 @@
             <div class="page-content">
                 <div class="row">
                     <!-- Subtitle -->
-                    <div class="d-flex justify-content-between my-3">
+                    <div class="d-flex justify-content-between mb-3">
                         <h1 class="title">TICKETS DE SALIDA</h1>
                     </div>
                     <!-- Card -->

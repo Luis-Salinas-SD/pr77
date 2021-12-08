@@ -32,7 +32,7 @@
             <div class="page-content">
                 <div class="row">
                     <!-- Subtitle -->
-                    <div class="d-flex justify-content-between">
+                    <div class="d-flex justify-content-between mb-3">
                         <h1 class="title">ORDEN DE PRODUCCIÓN #1</h1>
                         <a href="../pages/addOrden.php" class="btn btn-warning m-lg-3">
                             <i data-feather="plus"></i>
@@ -40,6 +40,7 @@
                         </a>
                     </div>
 
+                    <!-- Table 1 -->
                     <div class="card my-3">
                         <div class="card-body">
                             <table class="table table-bordered table-striped">
@@ -73,7 +74,7 @@
                     </div>
 
 
-                    <!-- Card -->
+                    <!-- Table 2 -->
                     <div class="card my-3">
                         <div class="card-body">
                             <div class="table-responsive">
@@ -98,10 +99,11 @@
                                     </thead>
                                     <tbody>
                                         <tr class="item_7">
-                                            <td>
-                                                <a href="#" class="btn btn-sm btn-outline-danger" data-bs-toggle="tooltip" data-bs-placement="top" title="Eliminar"> <i data-feather="trash"></i>
+                                            <td class="d-flex">
+                                                <a href="#" class="btn btn-outline-danger" data-bs-toggle="tooltip" data-bs-placement="top" title="Eliminar">
+                                                     <i class="mdi mdi-delete"></i>
                                                 </a>
-                                                <p>PRODUCTO UNO (MASCULINO)</p>
+                                                <p class="pt-1 ps-2">PRODUCTO UNO (MASCULINO)</p>
                                             </td>
                                             <td>
                                                 <total_p_7>52</total_p_7>
@@ -112,7 +114,7 @@
                                                     <span class="text-muted">/ 52</span>
                                                 </div>
                                                 <div class="progress mb-3" style="height: 8px;">
-                                                    <div class="progress-bar bg-success" role="progressbar" style="width: 23.08%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    <div class="progress-bar bg-success" role="progressbar" style="width: 23%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                                 </div>
                                             </td>
                                             <td>
@@ -220,8 +222,41 @@
                             </div>
                         </div>
                     </div>
-                </div>
 
+                    <!-- Table 3 -->
+                    <div class="card my-3">
+                        <div class="card-body">
+                            <table class="table table-bordered table-striped">
+                                <tbody>
+                                    <tr>
+                                        <td>#Orden</td>
+                                        <td>23</td>
+                                        <td>Cliente</td>
+                                        <td>CRISTIAN MORENO DÍAZ</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fecha de Entrega</td>
+                                        <td>jueves, 30 de septiembre de 2021</td>
+                                        <td>Archivo</td>
+                                        <td>
+                                            Sin archivo
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class=" text-center">
+                                <a href="#" class="btn btn-outline-success m-2">
+                                    <i data-feather="plus-circle"></i>
+                                    Añadir producto</a>
+                                <a class="btn btn-outline-flickr waves-effect" type="button" href="#">
+                                    <i data-feather="check"></i>
+                                    <span>Finalizar Proyecto</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
 
             </div>
         </div>

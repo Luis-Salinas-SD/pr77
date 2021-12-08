@@ -59,4 +59,13 @@
 .switch{
   display: none;
 }
-
+.logo-subempresa{
+  width: 150px;
+  height: 90px;
+  background-color: aqua;
+  overflow: hidden;
+}
+.logo-subempresa img{
+  width: 100%;
+  height: 100%;
+}

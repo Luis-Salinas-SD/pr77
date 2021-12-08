@@ -32,7 +32,7 @@
             <div class="page-content">
                 <div class="row">
                     <!-- Subtitle -->
-                    <div class="d-flex justify-content-between">
+                    <div class="d-flex justify-content-between mb-3">
                         <h1 class="title">Etapas de Producción </h1>
                         <a href="../pages/addEtapaProduccion.php" class="btn btn-warning m-lg-3">
                             <i data-feather="plus"></i>

@@ -32,7 +32,7 @@
             <div class="page-content">
                 <div class="row">
                     <!-- Subtitle -->
-                    <div class="d-flex justify-content-between">
+                    <div class="d-flex justify-content-between mb-3">
                         <h1 class="title">UBICACIONES
                         </h1>
                         <a href="../pages/addUbicacion.php" class="btn btn-warning m-lg-3">
