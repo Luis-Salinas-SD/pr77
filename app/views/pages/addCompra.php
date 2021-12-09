@@ -7,7 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Responsive HTML Admin Dashboard Template based on Bootstrap 5">
     <meta name="author" content="NobleUI">
-    <meta name="keywords" content="nobleui, bootstrap, bootstrap 5, bootstrap5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
+    <meta name="keywords"
+        content="nobleui, bootstrap, bootstrap 5, bootstrap5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
 
     <title>Nueva Compra | P.R 77</title>
 
@@ -33,10 +34,11 @@
             <div class="page-content">
                 <div class="row">
                     <!-- Subtitle -->
-                    <div class="d-flex justify-content-between">
+                    <div class="d-flex justify-content-between mb-3">
                         <h1 class="title">Compras</h1>
                     </div>
                     <form action="" id="formCompra">
+                        <!-- Panel 1 -->
                         <div class="card my-4">
                             <div class="card-body">
                                 <div class="row">
@@ -78,7 +80,11 @@
                                                 <p class="form-label">FECHA DE GENERACIÓN</p>
                                                 <div class="input-group date datepicker" id="datePickerExample">
                                                     <input type="text" class="form-control">
-                                                    <span class="input-group-text input-group-addon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar">
+                                                    <span class="input-group-text input-group-addon"><svg
+                                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                            viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                            stroke-width="2" stroke-linecap="round"
+                                                            stroke-linejoin="round" class="feather feather-calendar">
                                                             <rect x="3" y="4" width="18" height="18" rx="2" ry="2">
                                                             </rect>
                                                             <line x1="16" y1="2" x2="16" y2="6"></line>
@@ -92,6 +98,7 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- Panel 2 -->
                         <div class="card my-4">
                             <div class="card-body">
                                 <div class="row">
@@ -118,7 +125,8 @@
                                                 <label for="Select1" class="form-label">
                                                     CANTIDAD
                                                 </label>
-                                                <input type="number" class="form-control" id="exampleInputNumber1" value="1">
+                                                <input type="number" class="form-control" id="exampleInputNumber1"
+                                                    value="1">
                                             </div>
                                         </div>
                                     </div>
@@ -129,7 +137,8 @@
                                                 <label for="Select1" class="form-label">
                                                     PRECIO
                                                 </label>
-                                                <input type="number" class="form-control" id="exampleInputNumber1" value="1">
+                                                <input type="number" class="form-control" id="exampleInputNumber1"
+                                                    value="1">
                                             </div>
                                         </div>
                                     </div>
@@ -137,7 +146,8 @@
                                     <div class="col-sm-3">
                                         <div class="form-group">
                                             <div class="mb-3 py-4">
-                                                <a href="#" onclick="javascript:comprasobj.addProducto();return false;" class="text-warning">
+                                                <a href="#" onclick="javascript:comprasobj.addProducto();return false;"
+                                                    class="text-warning">
                                                     <i data-feather="plus-circle"></i>
                                                     <span>Agregar Producto</span>
                                                 </a>
@@ -163,41 +173,53 @@
                                                         <tr>
                                                             <td colspan="3"></td>
                                                             <td>Subtotal</td>
-                                                            <td>
-                                                                <stotal></stotal>
-                                                            </td>
+                                                            <td></td>
                                                         </tr>
                                                         <tr>
                                                             <td colspan="3"></td>
                                                             <td>
                                                                 Requiere IVA
-                                                                <input onchange="javascript:comprasobj.calculateIva();" type="checkbox" name="require_iva" id="require_iva" value="1" checked="">
+                                                                <input type="checkbox" name="require_iva"
+                                                                    id="require_iva" value="1" checked="">
                                                             </td>
                                                             <td>
-                                                                <iva></iva>
                                                             </td>
                                                         </tr>
                                                         <tr>
                                                             <td colspan="3"></td>
                                                             <td>Total</td>
-                                                            <td>
-                                                                <total></total>
-                                                            </td>
+                                                            <td></td>
                                                         </tr>
                                                         <tr>
                                                             <td colspan="5">
                                                                 <label for="notas">Notas</label>
-                                                                <textarea name="notas" id="notas" class="form-control"></textarea>
+                                                                <textarea name="notas" id="notas"
+                                                                    class="form-control"></textarea>
                                                             </td>
                                                         </tr>
                                                         <tr class="text-center">
-                                                            <td colspan="5"><button id="submit_info" class="btn btn-primary">Guardar Orden de compra</button>
+                                                            <td colspan="5">
+                                                                <button id="submit_info" class="btn btn-primary">
+                                                                    Guardar Orden de compra
+                                                                </button>
                                                             </td>
                                                         </tr>
                                                     </tfoot>
                                                 </table>
-                                                <!-- Small modal -->
-                                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target=".bd-example-modal-sm">Modal Success</button>
+                                                <!--! Button succes -->
+                                                <center>
+                                                    <button type="button" class="btn btn-success my-2"
+                                                        data-bs-toggle="modal" data-bs-target=".bd-example-modal-sm">
+                                                        Modal Success
+                                                    </button>
+                                                </center>
+                                                <!--! Button error -->
+                                                <center>
+                                                    <button type="button" class="btn btn-danger my-2"
+                                                        data-bs-toggle="modal" data-bs-target=".bd-example-modal-error">
+                                                        Modal Error
+                                                    </button>
+                                                </center>
                                             </div>
                                         </div>
                                     </div>
@@ -206,17 +228,39 @@
                         </div>
                     </form>
 
-                    <div class="modal fade bd-example-modal-sm" tabindex="-1" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                    <!--! Modal verde-->
+                    <div class="modal fade bd-example-modal-sm" tabindex="-1" aria-labelledby="mySmallModalLabel"
+                        aria-hidden="true">
                         <div class="modal-dialog modal-sm bg-success">
                             <div class="modal-content p-5 bg-success text-white">
                                 <center>
                                     <h2><i class="mdi mdi-check-circle-outline"></i></h2>
-                                    <p>¡Orden de compra creada!</p>
-                                    <p>Se ha creado correctamente la orden de compra</p>
+                                    <h3 class="mb-3">¡Orden de compra creada!</h3>
+                                    <p class="mb-3">Se ha creado correctamente la orden de compra</p>
                                 </center>
+                                <div class="modal-footer d-flex justify-content-center">
+                                    <button type="button" class="btn bg-white" data-bs-dismiss="modal">Aceptar</button>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    <!--! Modal rojo -->
+                    <div class="modal fade bd-example-modal-error" tabindex="-1" aria-labelledby="mySmallModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-sm bg-danger text-center">
+                            <div class="modal-content p-5 bg-danger text-white">
+                                <center>
+                                    <h2><i class="mdi mdi-alert-circle-outline"></i></h2>
+                                    <h3 class="mb-3">¡Error!</h3>
+                                    <p class="mb-3">Ha ocurrido un error</p>
+                                </center>
+                                <div class="modal-footer d-flex justify-content-center">
+                                    <button type="button" class="btn bg-white" data-bs-dismiss="modal">Aceptar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>

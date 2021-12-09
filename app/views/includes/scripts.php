@@ -30,6 +30,8 @@
 <script src="../../../public/js/data-table.js"></script>
 <script src="../../../public/js/inputmask.js"></script>
 
-
-
+<script src="../../../public/js/sweet-alert.js"></script>
+<script src="../../../public/vendors/sweetalert2/sweetalert2.min.js"></script>
+<!-- Scripts Dime -->
 <script src="../../../public/js/src/dime.js"></script>
+<script src="../../../public/js/src/sweet-alert-dime.js"></script>

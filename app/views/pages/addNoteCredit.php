@@ -36,6 +36,7 @@
                     <div class="d-flex justify-content-between">
                         <h2 class="page-title">NUEVA NOTA DE CRÉDITO</h2>
                     </div>
+
                     <form action="">
                         <div class="card my-4">
                             <div class="card-body">
@@ -93,7 +94,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- campo 4 -->
+                                <!-- campo 5 -->
                                 <div class="col-sm-12 mx-3">
                                     <div class="form-group">
                                         <div class="mb-3">
@@ -108,7 +109,54 @@
                             <div class="text-center">
                                 <button type="button" class="btn btn-warning">Guardar</button>
                             </div>
+                            <!--! Button succes -->
+                            <center>
+                                <button type="button" class="btn btn-success my-2" data-bs-toggle="modal"
+                                    data-bs-target=".bd-example-modal-sm">
+                                    Modal Success
+                                </button>
+                            </center>
+                            <!--! Button error -->
+                            <center>
+                                <button type="button" class="btn btn-danger my-2" data-bs-toggle="modal"
+                                    data-bs-target=".bd-example-modal-error">
+                                    Modal Error
+                                </button>
+                            </center>
                     </form>
+
+                    <!--! Modal verde-->
+                    <div class="modal fade bd-example-modal-sm" tabindex="-1" aria-labelledby="mySmallModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-sm bg-success">
+                            <div class="modal-content p-5 bg-success text-white">
+                                <center>
+                                    <h2><i class="mdi mdi-check-circle-outline"></i></h2>
+                                    <h3 class="mb-3">¡Nota de crédito creada!</h3>
+                                    <p class="mb-3">Se ha creado correctamente la nota de crédito</p>
+                                </center>
+                                <div class="modal-footer d-flex justify-content-center">
+                                    <button type="button" class="btn bg-white" data-bs-dismiss="modal">Aceptar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--! Modal rojo -->
+                    <div class="modal fade bd-example-modal-error" tabindex="-1" aria-labelledby="mySmallModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-sm bg-danger text-center">
+                            <div class="modal-content p-5 bg-danger text-white">
+                                <center>
+                                    <h2><i class="mdi mdi-alert-circle-outline"></i></h2>
+                                    <h3 class="mb-3">¡Error!</h3>
+                                    <p class="mb-3">Ha ocurrido un error</p>
+                                </center>
+                                <div class="modal-footer d-flex justify-content-center">
+                                    <button type="button" class="btn bg-white" data-bs-dismiss="modal">Aceptar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

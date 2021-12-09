@@ -27,3 +27,4 @@
     <link rel="shortcut icon" href="../../../assets/images/favicon.png" />
     <link rel="stylesheet" href="../../../public/css/demo1/styles/dime.css">
     <link rel="stylesheet" href="../../../public/vendors/datatables.net-bs4/dataTables.bootstrap4.css">
+    <link rel="stylesheet" href="../../../public/vendors/sweetalert2/sweetalert2.min.css">

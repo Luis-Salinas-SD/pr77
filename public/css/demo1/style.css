@@ -3860,16 +3860,16 @@ div.tox .disabled.tox-button--secondary {
 .btn-danger:hover,
 .swal2-popup .swal2-actions button.swal2-cancel:hover {
   color: #fff;
-  background-color: #d92b57;
-  border-color: #cc2952;
+  background-color: #f13a21;
+  border-color: #e0372b;
 }
 .btn-check:focus + .btn-danger,
 .swal2-popup .swal2-actions .btn-check:focus + button.swal2-cancel,
 .btn-danger:focus,
 .swal2-popup .swal2-actions button.swal2-cancel:focus {
   color: #fff;
-  background-color: #d92b57;
-  border-color: #cc2952;
+  background-color: #df3f3f;
+  border-color: #e93a3a;
   box-shadow: 0 0 0 0.25rem rgba(255, 82, 125, 0.5);
 }
 .btn-check:checked + .btn-danger,

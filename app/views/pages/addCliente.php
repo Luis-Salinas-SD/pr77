@@ -123,10 +123,16 @@
                                             </fieldset>
                                             <div class="form-group text-center">
                                                 <button class="btn btn-warning btn-send mx-2" type="submit"
-                                                    value="Submit">REGISTRAR</button>
+                                                    value="Submit">REGISTRAR
+                                                </button>
                                                 <a href="#" class="btn btn-outline-danger">CANCELAR</a>
+                                                <!--! Modal Toast  -->
+                                                <button class="btn btn-primary" onclick="showSwal('addClient')">
+                                                    Modal Toast
+                                                </button>
                                             </div>
                                         </form>
+
                                     </div>
                                 </div>
                             </div>
