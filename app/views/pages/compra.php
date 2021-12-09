@@ -7,7 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Responsive HTML Admin Dashboard Template based on Bootstrap 5">
     <meta name="author" content="NobleUI">
-    <meta name="keywords" content="nobleui, bootstrap, bootstrap 5, bootstrap5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
+    <meta name="keywords"
+        content="nobleui, bootstrap, bootstrap 5, bootstrap5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
 
     <title>Compras | P.R 77</title>
 
@@ -43,7 +44,7 @@
                     <div class="card">
                         <div class="card-body">
                             <form action="">
-                                <div class="row">
+                                <div class="row d-flex align-items-center">
                                     <div class="col-sm-auto">
                                         <div class="form-group">
                                             <div class="mb-3">
@@ -111,10 +112,11 @@
                                         </div>
                                     </div>
                                 </div>
+                            </form>
                         </div>
-                        </form>
                     </div>
                 </div>
+
                 <!-- Table -->
                 <div class="table-responsive pt-3">
                     <table class="table table-sm">
@@ -136,7 +138,8 @@
                                 <td>$206,850</td>
                                 <td>$206,850</td>
                                 <td>
-                                    <a href="../pages/detallesCompra.php" class="btn btn-warning" data-bs-toggle="tooltip" data-bs-placement="top" title="Ver detalles">
+                                    <a href="../pages/detallesCompra.php" class="btn btn-warning"
+                                        data-bs-toggle="tooltip" data-bs-placement="top" title="Ver detalles">
                                         <i class="mdi mdi-eye"></i>
                                     </a>
                                 </td>
@@ -155,8 +158,6 @@
 
             </div>
         </div>
-
-    </div>
     </div>
 
     <!-- End custom js for this page -->
