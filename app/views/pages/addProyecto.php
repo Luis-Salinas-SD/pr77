@@ -63,6 +63,9 @@
                                                 <button class="btn btn-warning btn-send mx-2" type="submit"
                                                     value="Submit">REGISTRAR</button>
                                                 <a href="#" class="btn btn-outline-danger">CANCELAR</a>
+                                                <button class="btn btn-warning btn-send mx-2" type="button" value=""
+                                                    onclick="showSwal('addProyecto')">Toast
+                                                </button>
                                             </div>
                                         </form>
                                     </div>

@@ -7,7 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Responsive HTML Admin Dashboard Template based on Bootstrap 5">
     <meta name="author" content="NobleUI">
-    <meta name="keywords" content="nobleui, bootstrap, bootstrap 5, bootstrap5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
+    <meta name="keywords"
+        content="nobleui, bootstrap, bootstrap 5, bootstrap5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
 
     <title>Nueva Venta | P.R 77</title>
 
@@ -48,51 +49,60 @@
                                                 <div class="mb-3 col-6">
                                                     <label for="name" class="form-label"> Nombre del Producto
                                                         <strong class="text-danger">*</strong>
-                                                        <a href="#" class="text-black" data-bs-toggle="tooltip" data-bs-placement="top" title="El campo debe tener al menos de 2 letras">
+                                                        <a href="#" class="text-black" data-bs-toggle="tooltip"
+                                                            data-bs-placement="top"
+                                                            title="El campo debe tener al menos de 2 letras">
                                                             <i class="mdi mdi-help-circle-outline"></i>
                                                         </a>
                                                     </label>
-                                                    <input class="form-control" id="name" name="name" type="text" placeholder="Nombre del Producto">
+                                                    <input class="form-control" id="name" name="name" type="text"
+                                                        placeholder="Nombre del Producto">
                                                 </div>
                                                 <!--! clave -->
                                                 <div class="mb-3 col-6">
                                                     <label for="clave" class="form-label"> Clave del producto
                                                         <strong class="text-danger">*</strong>
-                                                        <a href="#" class="text-black" data-bs-toggle="tooltip" data-bs-placement="top" title="El campo debe tener al menos de 12 a 13 letras">
+                                                        <a href="#" class="text-black" data-bs-toggle="tooltip"
+                                                            data-bs-placement="top"
+                                                            title="El campo debe tener al menos de 12 a 13 letras">
                                                             <i class="mdi mdi-help-circle-outline"></i>
                                                         </a>
                                                     </label>
-                                                    <input pattern=".{12,13}" title="Campo necesario" class="form-control uppercaseInput" type="text" placeholder="Clave del producto" required>
+                                                    <input pattern=".{12,13}" title="Campo necesario"
+                                                        class="form-control uppercaseInput" type="text"
+                                                        placeholder="Clave del producto" required>
                                                 </div>
                                                 <!--! Precio  -->
                                                 <div class="mb-3 col-6">
                                                     <label for="precio" class="form-label"> Precio
                                                         <strong class="text-danger">*</strong>
-                                                        <a class="text-black" data-bs-toggle="tooltip" data-bs-placement="top" title="El campo debe tener al menos de 2 letras">
+                                                        <a class="text-black" data-bs-toggle="tooltip"
+                                                            data-bs-placement="top"
+                                                            title="El campo debe tener al menos de 2 letras">
                                                             <i class="mdi mdi-help-circle-outline"></i>
                                                         </a>
                                                     </label>
-                                                    <input class="form-control" id="precio" name="precio" type="text" placeholder="$">
+                                                    <input class="form-control" id="precio" name="precio" type="text"
+                                                        placeholder="$">
                                                 </div>
                                                 <!--! Medida  -->
                                                 <div class="mb-3 col-6 container">
-                                                    <div class="row">
-                                                        <label class="form-label">
-                                                            Unidad de Medida
-                                                        </label>
-                                                        <select class="js-example-basic-single form-select" name="medida">
-                                                            <option selected disabled>Elige una opción</option>
-                                                            <option>option1</option>
-                                                            <option>option2</option>
-                                                        </select>
-                                                    </div>
+                                                    <label class="form-label">
+                                                        Unidad de Medida
+                                                    </label>
+                                                    <select class="js-example-basic-multiple form-select"
+                                                        name="states[]" multiple="multiple">
+                                                        <option>option1</option>
+                                                        <option>option2</option>
+                                                    </select>
                                                 </div>
                                                 <!--! GÉNEROS  -->
                                                 <div class="mb-3 col-6">
                                                     <label for="gender_ids" class="form-label">
                                                         Géneros
                                                     </label>
-                                                    <select class="js-example-basic-multiple form-select" name="states[]" multiple="multiple">
+                                                    <select class="js-example-basic-multiple form-select"
+                                                        name="states[]" multiple="multiple">
                                                         <option>Hombre</option>
                                                         <option>Mujer</option>
                                                     </select>
@@ -102,7 +112,8 @@
                                                     <label class="form-label">
                                                         Colores
                                                     </label>
-                                                    <select class="js-example-basic-multiple form-select" name="states[]" multiple="multiple">
+                                                    <select class="js-example-basic-multiple form-select"
+                                                        name="states[]" multiple="multiple">
                                                         <option value="1" data-select2-id="66">
                                                             AMARILLO</option>
                                                         <option value="2" data-select2-id="67">
@@ -168,7 +179,8 @@
                                                     <label class="form-label">
                                                         Tallas
                                                     </label>
-                                                    <select class="js-example-basic-multiple form-select" name="states[]" multiple="multiple">
+                                                    <select class="js-example-basic-multiple form-select"
+                                                        name="states[]" multiple="multiple">
 
                                                         <option value="1" data-select2-id="97">
                                                             CALZADO</option>
@@ -191,7 +203,8 @@
                                                     <label class="form-label">
                                                         Etapas de producción
                                                     </label>
-                                                    <select class="js-example-basic-multiple form-select" name="states[]" multiple="multiple">
+                                                    <select class="js-example-basic-multiple form-select"
+                                                        name="states[]" multiple="multiple">
                                                         <option value="1" data-select2-id="13">
                                                             ABASTO</option>
                                                         <option value="2" data-select2-id="14">
@@ -224,13 +237,19 @@
                                                         <label class="form-label">
                                                             Observaciónes
                                                         </label>
-                                                        <textarea name="description" id="description" placeholder="Observaciones..." class="form-control"></textarea>
+                                                        <textarea name="description" id="description"
+                                                            placeholder="Observaciones..."
+                                                            class="form-control"></textarea>
                                                     </div>
                                                 </div>
                                             </fieldset>
                                             <div class="form-group text-center">
-                                                <button class="btn btn-warning btn-send mx-2" type="submit" value="Submit">REGISTRAR</button>
+                                                <button class="btn btn-warning btn-send mx-2" type="submit"
+                                                    value="Submit">REGISTRAR</button>
                                                 <a href="#" class="btn btn-outline-danger">CANCELAR</a>
+                                                <button class="btn btn-warning btn-send mx-2" type="button" value=""
+                                                    onclick="showSwal('editReg')">Toast
+                                                </button>
                                             </div>
                                         </form>
                                     </div>

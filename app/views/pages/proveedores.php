@@ -7,7 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Responsive HTML Admin Dashboard Template based on Bootstrap 5">
     <meta name="author" content="NobleUI">
-    <meta name="keywords" content="nobleui, bootstrap, bootstrap 5, bootstrap5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
+    <meta name="keywords"
+        content="nobleui, bootstrap, bootstrap 5, bootstrap5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
 
     <title>Proveedores | P.R 77</title>
 
@@ -43,7 +44,7 @@
                     <div class="card">
                         <div class="card-body">
                             <form action="">
-                                <div class="row">
+                                <div class="row d-flex align-items-center">
                                     <div class="col-sm-10">
                                         <div class="form-group">
                                             <div class="mb-3">
@@ -63,8 +64,8 @@
                                         </div>
                                     </div>
                                 </div>
+                            </form>
                         </div>
-                        </form>
                     </div>
                 </div>
                 <!-- Table -->
@@ -90,16 +91,20 @@
                                     <span class="badge bg-success p-2">Activo</span>
                                 </td>
                                 <td>
-                                    <a href="../pages/mostrarProveedor.php" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Ver detalles">
+                                    <a href="../pages/mostrarProveedor.php" class="btn btn-secondary"
+                                        data-bs-toggle="tooltip" data-bs-placement="top" title="Ver detalles">
                                         <i class="mdi mdi-eye"></i>
                                     </a>
-                                    <a href="#" class="btn btn-warning" data-bs-toggle="tooltip" data-bs-placement="top" title="Editar">
+                                    <a href="#" class="btn btn-warning" data-bs-toggle="tooltip" data-bs-placement="top"
+                                        title="Editar">
                                         <i class="mdi mdi-lead-pencil"></i>
                                     </a>
-                                    <a href="#" class="btn btn-danger" data-bs-toggle="tooltip" data-bs-placement="top" title="Inactivar al cliente">
+                                    <a href="#" class="btn btn-danger" data-bs-toggle="tooltip" data-bs-placement="top"
+                                        title="Inactivar al cliente">
                                         <i class="mdi mdi-lock-outline"></i>
                                     </a>
-                                    <a href="#" class="btn btn-success" data-bs-toggle="tooltip" data-bs-placement="top" title="Activar al cliente">
+                                    <a href="#" class="btn btn-success" data-bs-toggle="tooltip" data-bs-placement="top"
+                                        title="Activar al cliente">
                                         <i class="mdi mdi-check-circle-outline"></i>
                                     </a>
                                 </td>

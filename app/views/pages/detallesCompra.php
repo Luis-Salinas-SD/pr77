@@ -7,14 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Responsive HTML Admin Dashboard Template based on Bootstrap 5">
     <meta name="author" content="NobleUI">
-    <meta name="keywords" content="nobleui, bootstrap, bootstrap 5, bootstrap5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
+    <meta name="keywords"
+        content="nobleui, bootstrap, bootstrap 5, bootstrap5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
 
     <title>Detalles de Compra | P.R 77</title>
 
     <?php include('../includes/header.php') ?>
 
 </head>
-<!--  -->
 
 <body class="sidebar-dark">
     <div class="main-wrapper">
@@ -39,21 +39,36 @@
                     <div class="card">
                         <div class="card-body">
                             <!-- header -->
-                            <div>
-                                <p>
-                                    <span class="badge bg-warning">Pendiente de Pago</span>
-                                </p>
-                                <p class="mt-2 icons-detalle">
-                                    <a class="btn btn-primary" href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Imprimir">
-                                        <i class="mdi mdi-printer"></i>
-                                    </a>
-                                    <a class=" btn btn-primary" href="#" role="button" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Ver cambios de la orden de compra">
-                                        <i class="mdi mdi-eye"></i>
-                                    </a>
-                                    <a class=" btn btn-primary" href="#" role="button" data-bs-toggle="tooltip" data-bs-placement="right" title="Duplicar orden de compra">
-                                        <i class=" mdi mdi-lead-pencil"></i> <strong>Duplicar</strong>
-                                    </a>
-                                </p>
+                            <div class="d-flex justify-content-between">
+                                <!-- Parte 1 -->
+                                <div>
+                                    <p>
+                                        <span class="badge bg-warning">Pendiente de Pago</span>
+                                    </p>
+                                    <p class="mt-2 icons-detalle">
+                                        <a class="btn btn-primary" href="#" data-bs-toggle="tooltip"
+                                            data-bs-placement="bottom" title="Imprimir">
+                                            <i class="mdi mdi-printer"></i>
+                                        </a>
+                                        <a class=" btn btn-primary" href="#" role="button" data-bs-toggle="tooltip"
+                                            data-bs-placement="bottom" title="Ver cambios de la orden de compra">
+                                            <i class="mdi mdi-eye"></i>
+                                        </a>
+                                        <a class=" btn btn-primary" href="#" role="button" data-bs-toggle="tooltip"
+                                            data-bs-placement="right" title="Duplicar orden de compra">
+                                            <i class=" mdi mdi-lead-pencil"></i> <strong>Duplicar</strong>
+                                        </a>
+                                    </p>
+                                </div>
+                                <!-- Parte 2 -->
+                                <div>
+                                    <p class="mt-2 icons-detalle">
+                                        <a class=" btn btn-danger" href="#" role="button" data-bs-toggle="tooltip"
+                                            data-bs-placement="right" title="Cancelar orden de compra">
+                                            <strong>Cancelera Orden de Compra</strong>
+                                        </a>
+                                    </p>
+                                </div>
                             </div>
                             <div class="px-3">
                                 <br>
@@ -168,7 +183,9 @@
                                                 <td>$963.44</td>
                                                 <td>sábado, 04 de septiembre de 2021</td>
                                                 <td>
-                                                    <a target="_blank" href="#" class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Imprimir">
+                                                    <a target="_blank" href="#" class="btn btn-primary"
+                                                        data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                                        title="Imprimir">
                                                         <i class="mdi mdi-printer"></i></a>
                                                 </td>
                                             </tr>
@@ -195,11 +212,9 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
 
-    </div>
     </div>
 
     <!-- End custom js for this page -->

@@ -149,6 +149,37 @@ $(function () {
         title: '¡Registro Exitoso!'
       })
     }
+    else if (type == 'addProyecto') {
+      const Toast = Swal.mixin({
+        toast: true,
+        position: 'top-end',
+        showConfirmButton: false,
+        timer: 3000,
+        timerProgressBar: true,
+      });
+
+      Toast.fire({
+        icon: 'success',
+        title: '¡Proyecto registrado con exito!'
+      })
+    }
+    else if (type == 'editReg') {
+      const Toast = Swal.mixin({
+        toast: true,
+        position: 'top-end',
+        showConfirmButton: false,
+        timer: 3000,
+        timerProgressBar: true,
+      });
+
+      Toast.fire({
+        icon: 'success',
+        title: '¡Registro editado con exito!'
+      })
+    }
   }
 
 });
+
+
+

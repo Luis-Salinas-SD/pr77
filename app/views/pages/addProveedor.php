@@ -7,7 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Responsive HTML Admin Dashboard Template based on Bootstrap 5">
     <meta name="author" content="NobleUI">
-    <meta name="keywords" content="nobleui, bootstrap, bootstrap 5, bootstrap5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
+    <meta name="keywords"
+        content="nobleui, bootstrap, bootstrap 5, bootstrap5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
 
     <title>Nuevo Proveedor | P.R 77</title>
 
@@ -48,7 +49,9 @@
                                                 <div class="mb-3 col-6">
                                                     <label for="name" aria-invalid="true"> Razón Social
                                                         <strong class="text-danger">*</strong>
-                                                        <a href="#" class="text-black" data-bs-toggle="tooltip" data-bs-placement="top" title="La razón social debe tener al menos 2 letras">
+                                                        <a href="#" class="text-black" data-bs-toggle="tooltip"
+                                                            data-bs-placement="top"
+                                                            title="La razón social debe tener al menos 2 letras">
                                                             <i class="mdi mdi-help-circle-outline"></i>
                                                         </a>
                                                     </label>
@@ -64,21 +67,30 @@
                                                 <div class="mb-3 col-6">
                                                     <label for="name"> RFC
                                                         <strong class="text-danger">*</strong>
-                                                        <a href="#" class="text-black" data-bs-toggle="tooltip" data-bs-placement="top" title="El campo debe tener al menos de 12 a 13 letras">
+                                                        <a href="#" class="text-black" data-bs-toggle="tooltip"
+                                                            data-bs-placement="top"
+                                                            title="El campo debe tener al menos de 12 a 13 letras">
                                                             <i class="mdi mdi-help-circle-outline"></i>
                                                         </a>
                                                     </label>
-                                                    <input pattern=".{12,13}" title="El campo debe tener al menos de 12 a 13 letras" onchange="javascript:helpers.cleanText(this);" class="form-control uppercaseInput " type="text" name="rfc" id="rfc" placeholder="RFC" value="">
+                                                    <input pattern=".{12,13}"
+                                                        title="El campo debe tener al menos de 12 a 13 letras"
+                                                        onchange="javascript:helpers.cleanText(this);"
+                                                        class="form-control uppercaseInput " type="text" name="rfc"
+                                                        id="rfc" placeholder="RFC" value="">
                                                 </div>
                                                 <!--! Contacto  -->
                                                 <div class="mb-3 col-6">
                                                     <label for="name"> Contacto
                                                         <strong class="text-danger">*</strong>
-                                                        <a href="#" class="text-black" data-bs-toggle="tooltip" data-bs-placement="top" title="El campo debe tener al menos de 2 letras">
+                                                        <a href="#" class="text-black" data-bs-toggle="tooltip"
+                                                            data-bs-placement="top"
+                                                            title="El campo debe tener al menos de 2 letras">
                                                             <i class="mdi mdi-help-circle-outline"></i>
                                                         </a>
                                                     </label>
-                                                    <input class="form-control" id="contacto" name="contacto" type="text">
+                                                    <input class="form-control" id="contacto" name="contacto"
+                                                        type="text">
                                                 </div>
                                                 <!--! em@il  -->
                                                 <div class="mb-3 col-6">
@@ -91,7 +103,9 @@
                                                 <div class="mb-3 col-6">
                                                     <label for="name"> TELÉFONO
                                                         <strong class="text-danger">*</strong>
-                                                        <a href="#" class="text-black" data-bs-toggle="tooltip" data-bs-placement="top" title="El campo debe tener al menos de 7 números">
+                                                        <a href="#" class="text-black" data-bs-toggle="tooltip"
+                                                            data-bs-placement="top"
+                                                            title="El campo debe tener al menos de 7 números">
                                                             <i class="mdi mdi-help-circle-outline"></i>
                                                         </a>
                                                     </label>
@@ -114,12 +128,17 @@
                                                 <!--! obs -->
                                                 <div class="mb-3 col-6">
                                                     <label for="name"> OBSERVACIONES </label>
-                                                    <textarea id="maxlength-textarea" class="form-control" maxlength="100" rows="2" placeholder="Observaciones"></textarea>
+                                                    <textarea id="maxlength-textarea" class="form-control"
+                                                        maxlength="100" rows="2" placeholder="Observaciones"></textarea>
                                                 </div>
                                             </fieldset>
                                             <div class="form-group text-center">
-                                                <button class="btn btn-warning btn-send mx-2" type="submit" value="Submit">REGISTRAR</button>
+                                                <button class="btn btn-warning btn-send mx-2" type="submit"
+                                                    value="Submit">REGISTRAR</button>
                                                 <a href="#" class="btn btn-outline-danger">CANCELAR</a>
+                                                <button class="btn btn-warning btn-send mx-2" type="button" value=""
+                                                    onclick="showSwal('addClient')">Toast
+                                                </button>
                                             </div>
                                         </form>
                                     </div>

@@ -39,21 +39,36 @@
                     <div class="card">
                         <div class="card-body">
                             <!-- header -->
-                            <div>
-                                <p>
-                                    <span class="badge bg-warning">Pendiente de Pago</span>
-                                </p>
-                                <p class="mt-2 icons-detalle">
-                                    <a class="btn btn-primary" href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Imprimir">
-                                        <i class="mdi mdi-printer"></i>
-                                    </a>
-                                    <a class=" btn btn-primary" href="#" role="button" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Ver cambios de la orden de compra">
-                                        <i class="mdi mdi-eye"></i>
-                                    </a>
-                                    <a class=" btn btn-primary" href="#" role="button" data-bs-toggle="tooltip" data-bs-placement="right" title="Duplicar orden de compra">
-                                        <i class=" mdi mdi-lead-pencil"></i> <strong>Duplicar</strong>
-                                    </a>
-                                </p>
+                            <div class="d-flex justify-content-between">
+                                <!-- Parte 1 -->
+                                <div>
+                                    <p>
+                                        <span class="badge bg-warning">Pendiente de Pago</span>
+                                    </p>
+                                    <p class="mt-2 icons-detalle">
+                                        <a class="btn btn-primary" href="#" data-bs-toggle="tooltip"
+                                            data-bs-placement="bottom" title="Imprimir">
+                                            <i class="mdi mdi-printer"></i>
+                                        </a>
+                                        <a class=" btn btn-primary" href="#" role="button" data-bs-toggle="tooltip"
+                                            data-bs-placement="bottom" title="Ver cambios de la orden de compra">
+                                            <i class="mdi mdi-eye"></i>
+                                        </a>
+                                        <a class=" btn btn-primary" href="#" role="button" data-bs-toggle="tooltip"
+                                            data-bs-placement="right" title="Duplicar orden de compra">
+                                            <i class=" mdi mdi-lead-pencil"></i> <strong>Duplicar</strong>
+                                        </a>
+                                    </p>
+                                </div>
+                                <!-- Parte 2 -->
+                                <div>
+                                    <p class="mt-2 icons-detalle">
+                                        <a class=" btn btn-danger" href="#" role="button" data-bs-toggle="tooltip"
+                                            data-bs-placement="right" title="Cancelar orden de venta">
+                                            <strong>Cancelera Orden de Venta</strong>
+                                        </a>
+                                    </p>
+                                </div>
                             </div>
                             <div class="px-3">
                                 <br>
@@ -211,7 +226,6 @@
             </div>
         </div>
 
-    </div>
     </div>
 
     <!-- End custom js for this page -->
