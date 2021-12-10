@@ -32,11 +32,10 @@
                         <div class="card">
                             <div class="position-relative">
                                 <figure class="overflow-hidden mb-0 d-flex justify-content-center">
-                                    <!-- <img src="https://via.placeholder.com/1560x170" class="rounded-top"
-                                        alt="profile cover"> -->
-                                    <div class="backgroun-profile">
-
-                                    </div>
+                                    <img src="https://via.placeholder.com/1560x270" class="rounded-top"
+                                        alt="profile cover">
+                                    <!-- <div class="backgroun-profile">
+                                    </div> -->
                                 </figure>
                                 <div
                                     class="d-flex justify-content-between align-items-center position-absolute top-75 w-100 px-2 px-md-4 mt-n4">
@@ -70,8 +69,8 @@
                                 <!--!Pestaña 1  -->
                                 <div class="tab-pane fade show active" id="home" role="tabpanel"
                                     aria-labelledby="home-line-tab">
-                                    <!-- left wrapper start -->
                                     <div class="d-flex justify-content-center">
+                                        <!--# left wrapper start -->
                                         <div class="d-none d-md-block col-md-4 col-xl-3 left-wrapper m-2">
                                             <div class="card rounded">
                                                 <div class="card-body">
@@ -140,7 +139,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- middle wrapper start -->
+                                        <!--# middle wrapper start -->
                                         <div class="col-md-8 col-xl-8 middle-wrapper m-2">
                                             <div class="row">
                                                 <div class="col-md-12 grid-margin">
@@ -306,13 +305,14 @@
                                 <div class="tab-pane fade" id="profile" role="tabpanel"
                                     aria-labelledby="profile-line-tab">
                                     <div class="row d-flex justify-content-center">
-                                        <!-- middle wrapper start -->
+                                        <!--# middle wrapper start -->
                                         <div class="row">
+                                            <!--& Panel Proyectos  -->
                                             <div class="col-5 col-md-3 pe-0">
                                                 <div class="nav nav-tabs nav-tabs-vertical" id="v-tab" role="tablist"
                                                     aria-orientation="vertical">
                                                     <a class="nav-link active" id="v-home-tab" data-bs-toggle="pill"
-                                                        href="#v-home" role="tab" aria-controls="v-home"
+                                                        href="#pro1" role="tab" aria-controls="pro1"
                                                         aria-selected="true">Proyecto 1</a>
                                                     <a class="nav-link" id="v-profile-tab" data-bs-toggle="pill"
                                                         href="#v-profile" role="tab" aria-controls="v-profile"
@@ -322,14 +322,14 @@
                                                         aria-selected="false">Proyecto 3</a>
                                                     <a class="nav-link" id="v-settings-tab" data-bs-toggle="pill"
                                                         href="#v-settings" role="tab" aria-controls="v-settings"
-                                                        aria-selected="false">Proyecto 3</a>
+                                                        aria-selected="false">Proyecto 4</a>
                                                 </div>
                                             </div>
                                             <div class="col-7 col-md-9 ps-0">
                                                 <div class="tab-content tab-content-vertical border p-3"
                                                     id="v-tabContent">
-                                                    <!--! Proyecto 1 -->
-                                                    <div class="tab-pane fade show active" id="v-home" role="tabpanel"
+                                                    <!--! Proyecto 1  Tareas-->
+                                                    <div class="tab-pane fade show active" id="pro1" role="tabpanel"
                                                         aria-labelledby="v-home-tab">
                                                         <div class="accordion" id="accordionExample">
                                                             <div class="accordion-item">
@@ -347,20 +347,7 @@
                                                                     aria-labelledby="headingOne"
                                                                     data-bs-parent="#accordionExample">
                                                                     <div class="accordion-body">
-                                                                        <strong>This is the first item's accordion
-                                                                            body.</strong> It is shown by default, until
-                                                                        the collapse
-                                                                        plugin adds the appropriate classes that we use
-                                                                        to style each element. These classes control the
-                                                                        overall
-                                                                        appearance, as well as the showing and hiding
-                                                                        via CSS transitions. You can modify any of this
-                                                                        with
-                                                                        custom CSS or overriding our default variables.
-                                                                        It's also worth noting that just about any HTML
-                                                                        can go
-                                                                        within the <code>.accordion-body</code>, though
-                                                                        the transition does limit overflow.
+                                                                        Hacer algo 1
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -379,20 +366,7 @@
                                                                     aria-labelledby="headingTwo"
                                                                     data-bs-parent="#accordionExample">
                                                                     <div class="accordion-body">
-                                                                        <strong>This is the second item's accordion
-                                                                            body.</strong> It is hidden by default,
-                                                                        until the collapse
-                                                                        plugin adds the appropriate classes that we use
-                                                                        to style each element. These classes control the
-                                                                        overall
-                                                                        appearance, as well as the showing and hiding
-                                                                        via CSS transitions. You can modify any of this
-                                                                        with
-                                                                        custom CSS or overriding our default variables.
-                                                                        It's also worth noting that just about any HTML
-                                                                        can go
-                                                                        within the <code>.accordion-body</code>, though
-                                                                        the transition does limit overflow.
+                                                                        Hacer algo 2
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -411,25 +385,13 @@
                                                                     aria-labelledby="headingThree"
                                                                     data-bs-parent="#accordionExample">
                                                                     <div class="accordion-body">
-                                                                        <strong>This is the third item's accordion
-                                                                            body.</strong> It is hidden by default,
-                                                                        until the collapse
-                                                                        plugin adds the appropriate classes that we use
-                                                                        to style each element. These classes control the
-                                                                        overall
-                                                                        appearance, as well as the showing and hiding
-                                                                        via CSS transitions. You can modify any of this
-                                                                        with
-                                                                        custom CSS or overriding our default variables.
-                                                                        It's also worth noting that just about any HTML
-                                                                        can go
-                                                                        within the <code>.accordion-body</code>, though
-                                                                        the transition does limit overflow.
+                                                                        Hacer algo 3
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
+                                                    <!--! Proyecto 2  Tareas-->
                                                     <div class="tab-pane fade" id="v-profile" role="tabpanel"
                                                         aria-labelledby="v-profile-tab">
                                                         <div class="accordion" id="accordionExample">
@@ -531,6 +493,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
+                                                    <!--! Proyecto 3  Tareas-->
                                                     <div class="tab-pane fade" id="v-messages" role="tabpanel"
                                                         aria-labelledby="v-messages-tab">
                                                         <div class="accordion" id="accordionExample">
@@ -632,6 +595,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
+                                                    <!--! Proyecto 4  Tareas-->
                                                     <div class="tab-pane fade" id="v-settings" role="tabpanel"
                                                         aria-labelledby="v-settings-tab">
                                                         <div class="accordion" id="accordionExample">
@@ -742,9 +706,9 @@
                                 <div class="tab-pane fade" id="contact" role="tabpanel"
                                     aria-labelledby="contact-line-tab">
                                     <div class="row d-flex justify-content-center">
-                                        <div class="row d-flex justify-content-around">
+                                        <div class="row d-flex justify-content-around py-5">
                                             <!-- Tabla 1 -->
-                                            <table class="table-responsive col-lg-5 col-11 mt-4">
+                                            <table class="table-responsive col-lg-5 col-11">
                                                 <thead class="bg-thead">
                                                     <tr>
                                                         <th>Cuentas por cobrar</th>
@@ -797,7 +761,7 @@
                                                 </tbody>
                                             </table>
                                             <!-- Tabla 2 -->
-                                            <table class="table-responsive col-lg-5 col-11 mt-4">
+                                            <table class="table-responsive col-lg-5 col-11">
                                                 <thead class="bg-thead">
                                                     <tr>
                                                         <th>Cuentas por cobrar</th>
@@ -906,37 +870,6 @@
                                     </div>
                                 </div>
                             </div>
-
-
-
-
-
-
-                            <!--<div class="d-flex justify-content-center p-3 rounded-bottom">
-                                <ul class="d-flex align-items-center m-0 p-0">
-                                    <li class="d-flex align-items-center active">
-                                        <i class="me-1 icon-md text-primary" data-feather="columns"></i>
-                                        <a class="pt-1px d-none d-md-block text-primary" href="#">Tareas</a>
-                                    </li>
-                                    <li class="ms-3 ps-3 border-start d-flex align-items-center">
-                                        <i class="me-1 icon-md" data-feather="user"></i>
-                                        <a class="pt-1px d-none d-md-block text-body" href="#">Perfil</a>
-                                    </li>
-                                    <li class="ms-3 ps-3 border-start d-flex align-items-center">
-                                        <i class="me-1 icon-md" data-feather="users"></i>
-                                        <a class="pt-1px d-none d-md-block text-body" href="#">Datos <span
-                                                class="text-muted tx-12">3,765</span></a>
-                                    </li>
-                                    <li class="ms-3 ps-3 border-start d-flex align-items-center">
-                                        <i class="me-1 icon-md" data-feather="image"></i>
-                                        <a class="pt-1px d-none d-md-block text-body" href="#">Photos</a>
-                                    </li>
-                                    <li class="ms-3 ps-3 border-start d-flex align-items-center">
-                                        <i class="me-1 icon-md" data-feather="video"></i>
-                                        <a class="pt-1px d-none d-md-block text-body" href="#">Videos</a>
-                                    </li>
-                                </ul>
-                            </div>-->
                         </div>
                     </div>
                 </div>
